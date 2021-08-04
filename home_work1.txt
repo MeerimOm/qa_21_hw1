@@ -1,0 +1,292 @@
+
+Meerim Om@PC-Meerim MINGW64 ~ (master)
+$ git config --global --list
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+user.name=Meerim
+user.email=merischka@live.de
+init.defaultbranch=master
+
+Meerim Om@PC-Meerim MINGW64 ~ (master)
+$ cd D
+bash: cd: D: No such file or directory
+
+Meerim Om@PC-Meerim MINGW64 ~ (master)
+$ cd ..
+
+Meerim Om@PC-Meerim MINGW64 /c/Users
+$ cd ..
+
+Meerim Om@PC-Meerim MINGW64 /c
+$ cd ..
+
+Meerim Om@PC-Meerim MINGW64 /
+$ cd D
+
+Meerim Om@PC-Meerim MINGW64 /D
+$ mkdir  QA_21_Meerim
+
+Meerim Om@PC-Meerim MINGW64 /D
+$ cd QA_21_Meerim
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ mkdir Lesson1
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ mkdir Lesson2
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ mkdir Lesson3
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ cd Lesson1
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ la -ls
+bash: la: command not found
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ ls -l
+total 0
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ mkdir -p qa1|qa2|touch qa3|txt
+bash: qa2: command not found
+bash: txt: command not found
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ mkdir -p qa1/qa2| touch qa3/qa4.txt
+touch: cannot touch 'qa3/qa4.txt': Not a directory
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ mkdir -p test3/tets3|touch test33/test.txt
+touch: cannot touch 'test33/test.txt': No such file or directory
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ ls -ls
+total 0
+0 drwxr-xr-x 1 Meerim Om 197121 0 Aug  3 17:24 qa1/
+0 -rw-r--r-- 1 Meerim Om 197121 0 Aug  3 17:23 qa3
+0 drwxr-xr-x 1 Meerim Om 197121 0 Aug  3 17:25 test3/
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ rm -l qa1
+rm: unknown option -- l
+Try 'rm --help' for more information.
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ rm -r  qa1
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ rm -r test3
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ rm -r qa3
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ touch qa1.txt/qa2.txt/qa3.txt
+touch: cannot touch 'qa1.txt/qa2.txt/qa3.txt': No such file or directory
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ touch qa1.txt|qa2.txt
+bash: qa2.txt: command not found
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ touch qa2.txt
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ touch qa3.txt
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ touch js.json
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ touch js1.json
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ mkdir CSS
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ mkdir JS
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ mkdir QA
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ ls -ls
+total 0
+0 drwxr-xr-x 1 Meerim Om 197121 0 Aug  3 17:38 CSS/
+0 drwxr-xr-x 1 Meerim Om 197121 0 Aug  3 17:38 JS/
+0 drwxr-xr-x 1 Meerim Om 197121 0 Aug  3 17:38 QA/
+0 -rw-r--r-- 1 Meerim Om 197121 0 Aug  3 17:38 js.json
+0 -rw-r--r-- 1 Meerim Om 197121 0 Aug  3 17:38 js1.json
+0 -rw-r--r-- 1 Meerim Om 197121 0 Aug  3 17:35 qa1.txt
+0 -rw-r--r-- 1 Meerim Om 197121 0 Aug  3 17:37 qa2.txt
+0 -rw-r--r-- 1 Meerim Om 197121 0 Aug  3 17:37 qa3.txt
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ start qa1.txt
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ vim qa1.txt
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ cd ..
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ mv Lesson2/Lesson1 qa2.txt
+mv: cannot stat 'Lesson2/Lesson1': No such file or directory
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ pwd
+/D/QA_21_Meerim
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ cd ..
+
+Meerim Om@PC-Meerim MINGW64 /D
+$ move D:\QA_21_Meerim\Lesson2\qa2.txt
+bash: move: command not found
+
+Meerim Om@PC-Meerim MINGW64 /D
+$ move \QA_21_Meerim\Lesson2\qa2.txt
+bash: move: command not found
+
+Meerim Om@PC-Meerim MINGW64 /D
+$ mv \QA_21_Meerim\Lesson2\qa2.txt
+mv: missing destination file operand after 'QA_21_MeerimLesson2qa2.txt'
+Try 'mv --help' for more information.
+
+Meerim Om@PC-Meerim MINGW64 /D
+$ mv Lesson2/ qa2.txt Lesson1
+mv: target 'Lesson1' is not a directory
+
+Meerim Om@PC-Meerim MINGW64 /D
+$ mv Lesson1/ qa2.txt Lesson2
+mv: target 'Lesson2' is not a directory
+
+Meerim Om@PC-Meerim MINGW64 /D
+$ cd QA_21_Meerim
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ mv Lesson1/qa2.txt Lesson2
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ mv Lesson1/js.json Lesson2
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ cp -r js.json/Lesson3
+cp: missing destination file operand after 'js.json/Lesson3'
+Try 'cp --help' for more information.
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ cp -r js.json ../Lesson3
+cp: cannot stat 'js.json': No such file or directory
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ cd Lesson2
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson2
+$ cp -r js.json ../Lesson3
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson2
+$ cp -r qa2.txt../Lesson3
+cp: missing destination file operand after 'qa2.txt../Lesson3'
+Try 'cp --help' for more information.
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson2
+$ cp -r qa2.txt ../Lesson3
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson2
+$ cd ..
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ find qa1.txt
+find: ‘qa1.txt’: No such file or directory
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim
+$ cd Lesson1
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ find qa1.txt
+qa1.txt
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ tail -F qa1.txt
+Это мой курс по Тестированию!
+
+
+
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ tail -Fqa1.txt
+tail: unknown option -- a
+Try 'tail --help' for more information.
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ tail -F qa1.txt
+Это мой курс по Тестированию!
+
+
+wie schön dass ich diese Unterricht besuche!
+ klassnoooo
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ wie schön dass ich diese Unterricht besuche!
+^C
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ find -F qa1-txt
+find: unknown predicate `-F'
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ find -F qa1.txt
+find: unknown predicate `-F'
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ tail -F qa1.txt
+Это мой курс по Тестированию!
+
+
+ddd
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ head -n 2 qa1.txt
+Это мой курс по Тестированию!
+
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ tail -n 1 qa1.txt
+kaksjdhhdhdh
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ less qa1.txt
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$  time ls -l
+total 1
+drwxr-xr-x 1 Meerim Om 197121  0 Aug  3 17:38 CSS/
+drwxr-xr-x 1 Meerim Om 197121  0 Aug  3 17:38 JS/
+drwxr-xr-x 1 Meerim Om 197121  0 Aug  3 17:38 QA/
+-rw-r--r-- 1 Meerim Om 197121  0 Aug  3 17:38 js1.json
+-rw-r--r-- 1 Meerim Om 197121 69 Aug  3 18:17 qa1.txt
+-rw-r--r-- 1 Meerim Om 197121  0 Aug  3 17:37 qa3.txt
+
+real    0m0.049s
+user    0m0.015s
+sys     0m0.015s
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ data +%X
+bash: data: command not found
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ NOW=$( date '+%F_%H:%M:%S' )
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$ date '+%F_%H:%M:%S'
+2021-08-03_18:24:41
+
+Meerim Om@PC-Meerim MINGW64 /D/QA_21_Meerim/Lesson1
+$
